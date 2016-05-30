@@ -1,0 +1,21 @@
+[submodule "roles/ansible-openwrt-wireless"]
+	path = roles/ansible-openwrt-wireless
+	url = https://github.com/n0p/ansible-openwrt-wireless
+[submodule "roles/ansible-openwrt-firewall"]
+	path = roles/ansible-openwrt-firewall
+	url = https://github.com/n0p/ansible-openwrt-firewall
+[submodule "roles/ansible-openwrt-sqm"]
+	path = roles/ansible-openwrt-sqm
+	url = https://github.com/n0p/ansible-openwrt-sqm
+[submodule "roles/ansible-openwrt-dnsmasq"]
+	path = roles/ansible-openwrt-dnsmasq
+	url = https://github.com/n0p/ansible-openwrt-dnsmasq
+[submodule "roles/ansible-openwrt-ddns"]
+	path = roles/ansible-openwrt-ddns
+	url = https://github.com/n0p/ansible-openwrt-ddns
+[submodule "roles/ansible-openwrt-uci"]
+	path = roles/ansible-openwrt-uci
+	url = https://github.com/lefant/ansible-openwrt-uci
+[submodule "roles/ansible-openwrt-system"]
+	path = roles/ansible-openwrt-system
+	url = https://github.com/n0p/ansible-openwrt-system

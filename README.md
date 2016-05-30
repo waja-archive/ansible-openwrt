@@ -20,23 +20,28 @@ See `host_vars/example-gw.home.lan` for how to override the role
 defaults in your local clone.
 
 
-Installation (ansible-galaxy and librarian)
-----------------------------
+Installation (roles dependencies)
+---------------------------------
 
-In an attempt to make this more reusable, I am trying to move all the
-roles to [ansible galaxy] and use [librarian-ansible] to manage
-dependencies. librarian-ansible uses the `Ansiblefile` to declare the
-external playbooks that ansible-openwrt requires.
+This is a fork of the original lefant's playbook and I switched to git
+submodules simply because I prefer using git rather than installing 
+another tool. Also this simplifies the playbook IMHO
 
 To automatically retrieve dependencies:
 
     cd ansible-openwrt
-    gem install librarian-ansible
-    librarian-ansible install
+    git submodule init
+    git submodule update
 
 
-WARNING: as of April 2015 something is broken with the latest ansible
-release for me. if I use v1.7.2 everything works.
+Contributors
+------------
+
+Fabian Linzberger ([lefant on github]) did create the original playbook
+
+Jan Wagner ([waja on github]) pointed out that the uci module needs to
+return json and contributed related fixes allowing it to work with
+recent versions of ansible.
 
 
 TODO
@@ -47,5 +52,5 @@ TODO
 [openwrt]: https://openwrt.org/
 [ansible]: http://www.ansible.com/
 [config-cerowrt.sh]: https://github.com/richb-hanover/CeroWrtScripts/blob/master/config-cerowrt.sh
-[ansible galaxy]: https://galaxy.ansible.com/list#/users/3407
-[librarian-ansible]: https://github.com/bcoe/librarian-ansible
+[waja on github]: https://github.com/waja
+[lefant on github]: https://github.com/lefant

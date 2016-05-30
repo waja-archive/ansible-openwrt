@@ -3,11 +3,11 @@
 
 site "https://galaxy.ansible.com/api/v1"
 
-role "lefant.openwrt-uci"
-
-role "lefant.openwrt-system"
-role "lefant.openwrt-wireless"
-role "lefant.openwrt-firewall"
-role "lefant.openwrt-sqm"
-role "lefant.openwrt-dnsmasq"
-role "lefant.openwrt-ddns"
+## I do prefer git submodules :)
+#role "lefant.openwrt-uci"
+#role "lefant.openwrt-system"
+#role "lefant.openwrt-wireless"
+#role "lefant.openwrt-firewall"
+#role "lefant.openwrt-sqm"
+#role "lefant.openwrt-dnsmasq"
+#role "lefant.openwrt-ddns"
