@@ -4,9 +4,9 @@
   user: root
   gather_facts: no
   roles:
-    - lefant.openwrt-system
-    - lefant.openwrt-wireless
-    - lefant.openwrt-firewall
-    - lefant.openwrt-sqm
-    - lefant.openwrt-dnsmasq
-    - lefant.openwrt-ddns
+    - openwrt-system
+    - openwrt-wireless
+    - openwrt-firewall
+    - openwrt-sqm
+    - openwrt-dnsmasq
+    - openwrt-ddns
